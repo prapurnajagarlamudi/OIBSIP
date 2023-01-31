@@ -1,0 +1,86 @@
+h1 {
+    margin-top: 10px;
+    color: rgb(88, 54, 37);
+    font-size: 75px;
+    margin-bottom: 3px;
+    padding: 0px;
+}
+
+h2 {
+    color: rgb(88, 54, 37);
+    margin: 0px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10px;
+    padding: 8px;
+    background-image: linear-gradient(90deg, rgba(133, 90, 51, 1) 0%, rgba(194, 161, 72, 1) 39%, rgba(250, 235, 215, 1) 75%);
+    color: #faebd7;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(88, 54, 37);
+    background-image: url(full-bloom.png);
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    line-height: 205%;
+    font-size: 20px;
+}
+
+figcaption {
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#intro {
+    text-align: justify;
+}
+
+#general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#image-container {
+    align-items: center;
+    max-width: 295px;
+}
+
+#famorsolo {
+    border: solid 8px rgb(133, 90, 51, 1);
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+}
+
+.painting-container {
+      height: 320px;
+      width: 500px;
+      margin: 15px;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: min(5px, 5%);
+      border: 2px solid rgb(170, 110, 81);
+      border-radius: 10px;
+}
+
+.painting {
+     height: 300px;
+     width: 500px;
+     border-radius: 5px;
+}
